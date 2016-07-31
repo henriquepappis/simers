@@ -1,0 +1,43 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.conteudo {
+  margin: 0 auto;
+  padding: 40px;
+  max-width: 800px;
+}
+
+.tabela {
+  margin: 0 0 40px 0;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: table;
+}
+
+.row {
+  display: table-row;
+  background: #F6F6F6;
+}
+.row:nth-child(odd) {
+  background: #E9E9E9;
+}
+
+.row:hover{
+	background: #c4c2c9;
+}
+
+.row.header {
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #DA282C;
+}
+
+.cell {
+  padding: 6px 12px;
+  display: table-cell;
+}
+
