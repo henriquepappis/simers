@@ -2,7 +2,7 @@
 - Sistema desenvolvido em 3 camadas (MVC) utilizando a linguagem PHP e banco de dados MySQL.
 
 ## Arquivos
-´´´
+```
 simers/
 |--controller
 |  |--controller.php
@@ -16,3 +16,4 @@ simers/
 |--index.php
 |--simers.sql
 |--user.xml
+```
